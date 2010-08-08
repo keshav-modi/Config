@@ -3,7 +3,7 @@
 " Date First Edited : 14th March 2008
 "
 " Modified by : Naveen Kumar Molleti
-" Date        : 15th June, 2008
+" Date        : [lots of times :P]
 "
 " Works with the following plugins
 " 	cvim - for various c/c++ utils Start a C/C++ file & read the docs
@@ -38,6 +38,7 @@ set guioptions-=T " removes Toolbar from standard gvim
 set foldenable
 set tabstop=4
 set shiftwidth=4
+set number
 
 "Visual Cues
 set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$ " what to show when I hit :set list
