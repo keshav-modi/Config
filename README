@@ -6,3 +6,5 @@ Config files
 .vimrc
 
 caps.sh
+
+oh-my-zsh [folder] consists of the files in the $(HOME) folder when using oh-my-zsh
