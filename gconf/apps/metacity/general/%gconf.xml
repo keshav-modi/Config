@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="button_layout" mtime="1284406268" type="string">
+		<stringvalue>menu:minimize,maximize,close</stringvalue>
+	</entry>
+	<entry name="titlebar_font" mtime="1282497404" type="string">
+		<stringvalue>Sans Bold 9</stringvalue>
+	</entry>
+	<entry name="theme" mtime="1284406340" type="string">
+		<stringvalue>Ambiance</stringvalue>
+	</entry>
+</gconf>

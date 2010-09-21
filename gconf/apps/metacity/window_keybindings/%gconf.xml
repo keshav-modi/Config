@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="move_to_workspace_down" mtime="1285108155" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Down</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_up" mtime="1285108154" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Up</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_right" mtime="1285108153" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Right</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_left" mtime="1285108152" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;Left</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_4" mtime="1285108148" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;dollar</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_3" mtime="1285108146" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;numbersign</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_2" mtime="1285108144" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;at</stringvalue>
+	</entry>
+	<entry name="move_to_workspace_1" mtime="1285108142" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Mod4&gt;exclam</stringvalue>
+	</entry>
+</gconf>
