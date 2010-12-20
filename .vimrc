@@ -3,7 +3,9 @@
 " Date First Edited : 14th March 2008
 "
 " Modified by : Naveen Kumar Molleti
-" Date        : [lots of times :P]
+" Date        : 15th June, 2008
+" 		<many times in between>
+" 		30th April, 2010
 "
 " Works with the following plugins
 " 	cvim - for various c/c++ utils Start a C/C++ file & read the docs
@@ -27,6 +29,8 @@ syntax on
 set nocompatible
 set showmode
 set ruler
+set tabstop=4
+set shiftwidth=4
 set mousemodel=popup
 set lz 	" do not redraw during macros - lazy redraw
 set ai " autoindent
@@ -36,9 +40,7 @@ set incsearch "inc search to allow less typing in of chars
 set matchpairs+=<:> "adds < > to the % jumping
 set guioptions-=T " removes Toolbar from standard gvim
 set foldenable
-set tabstop=4
-set shiftwidth=4
-set number
+set visualbell
 
 "Visual Cues
 set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$ " what to show when I hit :set list
