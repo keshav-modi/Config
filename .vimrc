@@ -64,7 +64,7 @@ nmap <s-right>  <c-w>l
 "
 "------------------------------------------------------
 nmap <F2> <Esc>:TlistToggle<CR>
-
+nmap <F3> <Esc>:NERDTree<CR>
 
 "au BufWinLeave * mkview "This is to keep marks etc.. in storage.
 
