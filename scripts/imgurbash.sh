@@ -64,7 +64,7 @@ which curl >/dev/null 2>/dev/null || {
 }
 
 # upload the image
-response=$(curl -F "key=$apikey" -H "Expect: " -F "image=@$1" \
+response=$(curl -F "key=$apikey" -F "image=@$1" \
 	http://imgur.com/api/upload.xml 2>/dev/null)
 # the "Expect: " header is to get around a problem when using this through the
 # Squid proxy. Not sure if it's a Squid bug or what.
