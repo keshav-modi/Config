@@ -41,6 +41,8 @@ set matchpairs+=<:> "adds < > to the % jumping
 set guioptions-=T " removes Toolbar from standard gvim
 set foldenable
 set visualbell
+set modeline
+set number
 
 "Visual Cues
 set listchars=tab:\|\ ,trail:.,extends:>,precedes:<,eol:$ " what to show when I hit :set list
