@@ -30,4 +30,7 @@ bindkey -v
 # SSH Aliases
 alias minekey="ssh minekey"
 alias linode="proxychains ssh linode"
-alias irc="ssh -t minkey proxychains ssh -t linode screen -x"
+alias irc="proxychains ssh -t linode screen -x"
+
+# autojump
+source /etc/profile.d/autojump.zsh
