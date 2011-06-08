@@ -34,3 +34,6 @@ alias irc="ssh -t linode screen -x"
 
 # autojump
 source /etc/profile.d/autojump.zsh
+
+# /etc/zshenv /* Should not do this, but for some reason, it doesn't seem to get source'd by default
+source /etc/zsh/zshenv

@@ -1,8 +1,6 @@
 # TODO: Explain what some of this does..
-autoload -U compinit
-compinit -i
 
-bindkey -e
+bindkey -v
 bindkey '\ew' kill-region
 bindkey -s '\el' "ls\n"
 bindkey -s '\e.' "..\n"
@@ -20,6 +18,15 @@ bindkey "^[[F"  end-of-line
 bindkey "^[[4~" end-of-line
 bindkey ' ' magic-space    # also do history expansion on space
 
+bindkey "^R" history-incremental-search-backward
+bindkey "^S" history-incremental-search-forward
+
+bindkey '^[[Z' reverse-menu-complete
+
+# Make the delete key (or Fn + Delete on the Mac) work instead of outputting a ~
+bindkey "^[[3~" delete-char
+bindkey "^[3;5~" delete-char
+bindkey "\e[3~" delete-char
 
 # consider emacs keybindings:
 
