@@ -1,0 +1,13 @@
+[user]
+	name = "Naveen Kumar Molleti"
+	email = "nerd.naveen@gmail.com"
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	br = branch
+	co = checkout
+	st = status
+[core]
+	autocrlf = input
