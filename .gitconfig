@@ -1,6 +1,6 @@
 [user]
 	name = "Naveen Kumar Molleti"
-	email = "nerd.naveen@gmail.com"
+	email = "naveen.kumar@bankbazaar.com"
 [color]
 	diff = auto
 	status = auto
@@ -9,5 +9,6 @@
 	br = branch
 	co = checkout
 	st = status
+	cp = cherry-pick
 [core]
 	autocrlf = input
