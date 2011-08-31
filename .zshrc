@@ -22,7 +22,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 bindkey -v
 
 # Aliases
@@ -31,6 +31,7 @@ bindkey -v
 #alias minekey="ssh minekey"
 alias linode="ssh linode"
 alias irc="ssh -t linode screen -x"
+alias g='git'
 
 # autojump
 source /etc/profile.d/autojump.zsh

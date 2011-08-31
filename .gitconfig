@@ -6,9 +6,29 @@
 	status = auto
 	branch = auto
 [alias]
+	a = add
 	br = branch
+	bd = branch -D
+	c = commit
+	ca = commit -a
+	cm = commit -m
+	cma = commit -a -m
 	co = checkout
-	st = status
 	cp = cherry-pick
+	d = diff
+	f = fetch
+	l = log
+	lp = log -p
+	p = push
+	po = push origin
+	pfo = push -f origin
+	puo = push -u origin
+	rb = rebase
+	ri = rebase -i
+	r = reset
+	rh = reset --hard
+	sh = show
+	st = status
+	t = today
 [core]
 	autocrlf = input
