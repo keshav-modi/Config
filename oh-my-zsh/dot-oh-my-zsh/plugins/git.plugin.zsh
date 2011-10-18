@@ -12,7 +12,11 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gcount='git shortlog -sn'
 alias gcp='git cherry-pick'
-
+alias gco='git checkout'
+alias grb='git rebase'
+alias gri='git rebase --interactive'
+alias gr='git reset'
+alias grh='git reset --hard'
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
