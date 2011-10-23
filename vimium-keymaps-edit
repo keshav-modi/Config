@@ -1,0 +1,8 @@
+unmap d		"default for scroll page down [scrollPageDown]
+unmap u 	"default for scroll page up	[scrollPageUp]
+map <c-f> scrollPageDown
+map <c-b> scrollPageUp
+unmap x		"default for close tab [removeTab]
+unmap X		"default for undo close tab [restoreTab]
+map d removeTab
+map u restoreTab
