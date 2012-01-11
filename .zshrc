@@ -34,3 +34,7 @@ alias g='git'
 
 # autojump
 source /etc/profile.d/autojump.zsh
+
+vf() {
+	vi `find . -name "$*"`;
+}
