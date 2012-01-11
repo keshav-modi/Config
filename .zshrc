@@ -22,7 +22,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 bindkey -v
 
 # Aliases
@@ -35,6 +34,3 @@ alias g='git'
 
 # autojump
 source /etc/profile.d/autojump.zsh
-
-# /etc/zshenv /* Should not do this, but for some reason, it doesn't seem to get source'd by default
-source /etc/zsh/zshenv
