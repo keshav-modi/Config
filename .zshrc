@@ -3,7 +3,6 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-#export ZSH_THEME="robbyrussell"
 export ZSH_THEME="xiong-chiamiov-plus"
 
 # Set to this to use case-sensitive completion
@@ -27,9 +26,6 @@ bindkey -v
 # Aliases
 
 # SSH Aliases
-#alias minekey="ssh minekey"
-alias linode="ssh linode"
-alias irc="ssh -t linode screen -x"
 alias g='git'
 
 # autojump
