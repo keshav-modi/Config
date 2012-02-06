@@ -2,11 +2,21 @@ Config files
 ------------
 .bashrc
 .zshrc
-.vim [folder]
+.vim/
 .vimrc
+.gitconfig
+.oh-my-zsh/
+.irssi
+.rtorrent.rc
+.screenrc
+vimium-keymaps-edit
+gconf/
 
+Helpful scripts
+---------------
 scripts/caps.sh
 scripts/imgurbash.sh
 
-oh-my-zsh [folder] consists of the files in the $(HOME) folder when using oh-my-zsh. Pretty self-descriptive, eh?
-gconf [folder] consists of some of the files in the $(HOME)/gconf. Pretty self-descriptive, eh?
+Sub-README
+----------
+gconf/ folder is out of date
